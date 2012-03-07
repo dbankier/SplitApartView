@@ -1,4 +1,4 @@
-var TearApartView = require('/TearApartView').TearApartView;
+var SplitApartView = require('/SplitApartView').SplitApartView;
 
 var win = Ti.UI.createWindow({
 	backgroundColor : '#2192E3',
@@ -20,7 +20,7 @@ var textField = Titanium.UI.createTextArea({
 });
 win.add(textField);
 
-var split = new TearApartView({
+var split = new SplitApartView({
 	hostWin : win,
 	insideView : insideView
 });
