@@ -1,0 +1,10 @@
+Logfile initialized
+[INFO] logfile = /Users/dbankier/Titanium-Projects/SplitView/build.log
+[DEBUG] /Library/Application Support/Titanium/mobilesdk/osx/1.8.2/android/builder.py emulator SplitView /Users/dbankier/android-sdk-mac_86 /Users/dbankier/Titanium-Projects/SplitView com.yydigital.splitview 7 HVGA
+[INFO] Launching Android emulator...one moment
+[DEBUG] From: /Users/dbankier/android-sdk-mac_86/tools/emulator
+[DEBUG] SDCard: /Users/dbankier/.titanium/android2.sdcard
+[DEBUG] AVD ID: 7
+[DEBUG] AVD Skin: HVGA
+[DEBUG] SDK: /Users/dbankier/android-sdk-mac_86
+[INFO] Emulator is running.
