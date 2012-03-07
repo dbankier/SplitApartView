@@ -22,7 +22,7 @@ var common_animation = {
 	duration : 500
 };
 
-exports.SplitView = function(obj) {
+exports.TearApartView = function(obj) {
 	this.hostWin = obj.hostWin;
 	this.insideView = obj.insideView;
 	this.animated = false;
@@ -56,7 +56,7 @@ var cropping = {
 	height : screenHeight,
 	width : screenWidth / 2
 };
-exports.SplitView.prototype.prepare = function() {
+exports.TearApartView.prototype.prepare = function() {
 	var screenShot = this.hostWin.toImage();
 
 	this.leftView.backgroundImage = screenShot.imageAsCropped(mixin({
@@ -66,7 +66,7 @@ exports.SplitView.prototype.prepare = function() {
 		x : screenWidth / 2
 	}, cropping));
 };
-exports.SplitView.prototype.open = function() {
+exports.TearApartView.prototype.open = function() {
 	if(!this.animated) {
 		var win = this.hostWin;
 		this.animated = true;
